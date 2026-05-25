@@ -1,0 +1,16 @@
+{
+  "name": "WriterAgent",
+  "description": "Turns research findings into a structured report",
+  "url": "http://localhost:8002",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "write_report",
+      "name": "Write research report",
+      "description": "Formats raw research findings into a markdown report",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    }
+  ],
+  "authentication": { "schemes": ["none"] }
+}

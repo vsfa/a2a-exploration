@@ -1,0 +1,16 @@
+{
+  "name": "ResearchAgent",
+  "description": "Searches academic sources for relevant papers",
+  "url": "http://localhost:8001",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "search_papers",
+      "name": "Search academic papers",
+      "description": "Returns summaries of relevant papers for a query",
+      "inputModes": ["text"],
+      "outputModes": ["text"]
+    }
+  ],
+  "authentication": { "schemes": ["none"] }
+}
